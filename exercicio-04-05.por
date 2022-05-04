@@ -11,7 +11,7 @@ programa
 		leia(porcentagem)
 
 		para(inteiro cont = 1; cont <= 15; cont++){
-			quantAnos = quantAtual * porcentagem
+			quantAnos = quantAtual * (porcentagem/100)
 			quantAnos += quantAtual
 			escreva("\nPassado ", cont, " anos a cidade tem ",quantAnos, " habitantes.")
 			quantAtual = quantAnos
